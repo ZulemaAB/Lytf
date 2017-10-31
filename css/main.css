@@ -1,0 +1,175 @@
+/*
+ * Estilos de tu proyecto
+ */
+ 
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+ }
+/* ---------------Star Header-----------------*/
+nav{
+    overflow: auto;
+    position: relative;
+}
+
+ header{
+     background: #23103b;
+ }
+
+ /* alineando la figura con las lista*/
+.figure-logo{
+    width: 100px;
+    display: inline-block;
+}
+
+ .logo-header{
+     width: 70px;
+     padding: 20px 30px;
+ } 
+
+/*Poniendo la lista en inline*/
+.list-header{
+    display: inline-block;
+    float: right;
+    color: white;
+    font-size: 17px;
+}
+
+ .list-header li{
+     display: inline-block;
+     padding: 40px 20px; /*alineando la imagen-logo con la lista*/
+ }
+
+/*Dandole color a mi etiqueta uncle*/
+.list-header li a{
+    color: white;
+    border:  2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+/*----------Termina encabezado------------*/
+
+/*-------------------Inicio de la Sección 1-----------------------*/
+/*
+.secction1{
+    background-image: url(aseets/images/hero.gif);
+    -webkit-background-size: cover;
+    -moz-backface-size:cover;
+    -o-background-size: cover;
+     background: cover
+}
+*/
+/*.secction{
+    /*overflow: auto;
+}*/
+
+.firts-section {
+    outline: 1px solid red;
+    background-image: url(../assets/images/hero.gif)
+    height: 600px;
+}
+
+
+/*.class-form{
+    border: 1px solid black;
+    outline: 1px solid red;
+    color: white;
+    font-size: 15px;
+    
+}*/
+
+button{
+    height: 50px ;
+    width: 190px;
+    color: white;;
+    font-size: 18px ;
+    background: #ff00bf;
+    border-radius: 5px;
+}
+
+.secction1 {
+
+    outline: 1px solid white;
+    float: right;
+
+}
+/*.class-main{
+    outline: 1px solid yellow;
+    background: white;
+    width: 558px;
+    height: 480px;
+    /*float: right;
+}*/
+
+/*
+.class-main h2{
+    outline: 1px solid blue;
+    font-size: 35px ;
+    color: #352384;
+    font-weight:150px ; /*para hacer la legra mas gruesa(negrita)
+    margin: 40px 50px 7px;
+} */
+.border-form{
+    margin:5px 50px 30px;
+}
+.class-main p{
+    font-size: 15px;
+    color: #352384
+
+}
+
+
+/*star footer*/
+footer{
+    background: #333447;
+    color: white;
+    font-size: 30px;
+    text-align: center;   
+}
+
+.class-footer{
+    font-size: 15px;
+    column-width: 25%;
+    column-count: 4;
+    column-gap: 200px;/*para el espacio entre columnas*/
+    margin: 20px 20px;
+    display: inline-block;
+    list-style: none;
+    text-align: justify;
+}
+.copyrigth{
+    font-size: 15px;
+}
+
+.size-image img{
+    width: 90px;
+    height: 30px;
+}
+
+.class-footer div h5{
+    font-size: 23px;
+}
+/*para quitar las etiquetas*/
+.class-footer div ul{
+    list-style: none;
+
+}
+
+.icons{
+    border: 1px solid white;
+        border-radius: 60px;
+        height:35px ;
+        width: 35px;
+        padding: 3px;    
+        display: inline-block;
+        margin: 20px;
+    
+}
+.line{
+    margin: 0 180px;
+    border: 1.5px solid white;
+    width: 988px;
+}
