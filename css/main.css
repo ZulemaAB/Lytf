@@ -125,7 +125,6 @@ button {
 .Second-section figure img {
     width:400px;
     height: 500px;
-    border: 2px solid red;
     display: inline-block;
     margin-right: 100px;
 }
