@@ -1,7 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
- 
+
 
  *{
      margin: 0;
@@ -12,10 +12,14 @@
 nav{
     overflow: auto;
     position: relative;
-}
-
+ }
  header{
-     background: #23103b;
+   clear: left;
+   background-image: url("../assets/images/hero.gif");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 600px;
+   width: 100%;
  }
 
  /* alineando la figura con las lista*/
@@ -27,19 +31,19 @@ nav{
  .logo-header{
      width: 70px;
      padding: 20px 30px;
- } 
+ }
 
 /*Poniendo la lista en inline*/
 .list-header{
     display: inline-block;
     float: right;
-    color: white;
     font-size: 17px;
 }
 
  .list-header li{
      display: inline-block;
      padding: 40px 20px; /*alineando la imagen-logo con la lista*/
+     color: #fff;
  }
 
 /*Dandole color a mi etiqueta uncle*/
@@ -50,74 +54,103 @@ nav{
     text-decoration: none;
     padding: 5px;
 }
-/*----------Termina encabezado------------*/
+
 
 /*-------------------Inicio de la Sección 1-----------------------*/
-/*
-.secction1{
-    background-image: url(aseets/images/hero.gif);
-    -webkit-background-size: cover;
-    -moz-backface-size:cover;
-    -o-background-size: cover;
-     background: cover
+
+.secction1 {
+  height: 500px;
+  width: 550px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: #352384;
 }
-*/
-/*.secction{
-    /*overflow: auto;
-}*/
-
-.firts-section {
-    outline: 1px solid red;
-    background-image: url(../assets/images/hero.gif)
-    height: 600px;
-}
-
-
-/*.class-form{
-    border: 1px solid black;
-    outline: 1px solid red;
-    color: white;
-    font-size: 15px;
-    
-}*/
-
-button{
+button {
     height: 50px ;
     width: 190px;
-    color: white;;
+    color: white;
     font-size: 18px ;
     background: #ff00bf;
     border-radius: 5px;
+    border: none;
 }
 
-.secction1 {
-
-    outline: 1px solid white;
-    float: right;
-
-}
-/*.class-main{
-    outline: 1px solid yellow;
-    background: white;
-    width: 558px;
-    height: 480px;
-    /*float: right;
-}*/
-
-/*
-.class-main h2{
-    outline: 1px solid blue;
-    font-size: 35px ;
-    color: #352384;
-    font-weight:150px ; /*para hacer la legra mas gruesa(negrita)
-    margin: 40px 50px 7px;
-} */
 .border-form{
     margin:5px 50px 30px;
 }
-.class-main p{
-    font-size: 15px;
-    color: #352384
+
+
+/*------Inicio de la seccion 2---------------*/
+
+
+.Second-section {
+  clear: right;
+  background-color:#793D95;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0px;
+  margin-top: 0;
+}
+
+.secction2 {
+   height: 270px;
+   width: 100px;
+   background-color:#793D95;
+   text-align: justify;
+   font-family: sans-serif;
+   font-family: 'Gotham SSm A';
+   color: #fff;
+}
+
+.row-second-section {
+    display: inline-block;
+    width: 100vh;
+    padding-right: 5px;
+    line-height: 2.5;
+
+}
+
+
+}
+.secction2 p {
+     line-height: 3;
+}
+
+
+.Second-section figure img {
+    width:400px;
+    height: 500px;
+    border: 2px solid red;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+/*------Inicio de la seccion 3----------------*/
+
+.Third-section {
+  /*clear: left;*/
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+.secction3{
+   display: inline-block;
+   border: 2px solid red;
+   height: 480;
+   width: 450px;
+   margin-top: 8px
+}
+.video1 {
+   display: inline-block;
+   border: 2px solid red;
 
 }
 
@@ -127,7 +160,7 @@ footer{
     background: #333447;
     color: white;
     font-size: 30px;
-    text-align: center;   
+    text-align: center;
 }
 
 .class-footer{
@@ -163,10 +196,10 @@ footer{
         border-radius: 60px;
         height:35px ;
         width: 35px;
-        padding: 3px;    
+        padding: 3px;
         display: inline-block;
         margin: 20px;
-    
+
 }
 .line{
     margin: 0 180px;
